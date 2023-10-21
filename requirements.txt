@@ -1,0 +1,12 @@
+asgiref==3.7.2
+certifi==2023.7.22
+chardet==3.0.4
+Click==7.0
+Django==3.0
+download-gitignore==2.0.1
+idna==2.8
+pytz==2023.3.post1
+requests==2.22.0
+sqlparse==0.4.4
+typing_extensions==4.8.0
+urllib3==1.25.11
