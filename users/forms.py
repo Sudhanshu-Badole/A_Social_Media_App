@@ -2,4 +2,4 @@ from django import forms
 
 class LoginForm(forms.Form):
     username = forms.CharField(max_length=100)
-    password = forms.PasswordInput(widget = forms.PasswordInput)
+    password = forms.CharField(widget = forms.PasswordInput)
