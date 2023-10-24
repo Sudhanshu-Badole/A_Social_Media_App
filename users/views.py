@@ -7,7 +7,7 @@ def user_login(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)
         print("form",form)
-        if form.is_vaild():
+        if form.is_valid():
             data = form.cleaned_data
             print('data',data)
             user = authenticate(request, username = data['username'], password = data['password'])
