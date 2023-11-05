@@ -2,10 +2,14 @@
 
 {% block body %}
 
-<form method="POST">
+
+
+<form method="post">
     {% csrf_token %}
+    <!-- Your form fields go here -->
     {{form.as_p}}
-    <input type="submit">
+    <input type="submit" value="Create Post">
 </form>
+
 
 {% endblock %}
