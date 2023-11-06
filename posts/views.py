@@ -15,5 +15,4 @@ def post_create(request):
             new_item.save()
     else:
         form = PostCreateForm(data=request.GET)
-
     return render(request, 'posts/create.html', {'form': form})
